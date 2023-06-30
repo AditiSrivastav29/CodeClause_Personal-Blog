@@ -1,0 +1,152 @@
+ header 
+ {
+    background-color: black;
+    height: 65px;
+    width: 101%;
+  
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 0;
+    margin-left: -8px;
+    margin-top: -9px;
+  
+  }
+  
+  nav ul 
+  {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+  
+  nav ul li
+   {
+    margin-right: 10px;
+  }
+  
+  nav ul li a 
+  {
+    color: #fff;
+    text-decoration: none;
+    padding: 50px;
+    transition: all 0.3s ease;
+    
+  }
+  
+  nav ul li a:hover 
+  {
+    background-color: #555;
+  }
+  
+  #articles 
+  {
+    margin-top: 50px;
+  }
+  
+  #articles img 
+  {
+    width: 101%;
+    height: 335px;
+    margin-left: -8px;
+    position: relative;
+    transform: rotate(180deg);
+    margin-top: -50px;
+    
+  }
+  
+  #header1 
+  {
+    height: 65px;
+    background-color: black; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  h3 
+  {
+    color: white;
+  }
+  .article-container {
+    margin-left: 100px;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 99.9%;
+    height: 65px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+  footer p 
+  {
+    font-size: 20px;
+    margin: 20;
+  }
+
+#articles img {
+  transform: rotate(180deg);
+}
+
+.image-container {
+  position: relative;
+  text-align: center;
+}
+
+.image-text {
+  position: absolute;
+  top: 160px;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+  color: black;
+  font-size: 54px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  white-space: nowrap;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.additional-text {
+  position: absolute;
+  top: 220px;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+  color: black;
+  font-size: 36px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  white-space: nowrap;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.constant-hr 
+  {
+      width: 1240px;
+      height: 2px;
+      top: 553px;
+      left: 100px;
+      background-color: #E5E5E5; 
+  }
+
+.article {
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.article hr {
+  margin-left: 0px;
+}
+
+
+ 
